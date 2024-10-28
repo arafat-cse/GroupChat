@@ -1,0 +1,145 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+#main {
+    width: 60%;
+    background-image: url(image/bg.png);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    display: flex;
+    padding: 10px;
+    color: rgb(248, 242, 242);
+    background-color: rgba(0, 255, 0, .5);
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-group {
+    display: flex;
+    align-items: center;
+}
+.log {
+    width: 100px;
+    color: rgb(248, 242, 242);
+    padding: 5px 15px;
+    background-color: rgb(44, 160, 121);
+    border-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.user-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+}
+.user img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.group {
+    margin-top: 5px;
+    padding: 5px 15px;
+    background-color: rgb(44, 160, 121);
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.message-body {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    height: 500px;
+    overflow-y: auto;
+}
+.message {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #f9f9f9;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+.outgoing {
+    margin-left: auto;
+    background-color: #d1ffc1;
+}
+.incoming {
+    margin-right: auto;
+    background-color: #f1f1f1;
+}
+.message h4 {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+.message p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+.message-form {
+    padding: 10px;
+    display: flex;
+    background-color: rgba(0, 255, 0, .4);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+input[name="txt-msg"] {
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+#imageInput {
+    display: none;
+}
+.File, .btn {
+    width: 70px;
+    height: 50px;
+    background-color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.File {
+    margin-right: 10px;
+}
+.btn {
+    border-radius: 10px;
+}
+.uploadedImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
