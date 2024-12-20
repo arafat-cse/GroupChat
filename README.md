@@ -29,14 +29,14 @@ To get a local copy of this project up and running, follow these simple steps.
 ### Prerequisites
 
 - Node.js installed on your machine.
-  ![App Screenshot](images/screenshot.png)
+  ![App Screenshot](D:\arafat-dev\Github Project\Chat)
 
 
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   ### Run
+2.   ```bash
+   git clone https://github.com/arafat-cse/LiveChatHaven.git
+3.  ### Run
    - Folder Open cmd
    - Node Index
-   git clone https://github.com/arafat-cse/LiveChatHaven.git
