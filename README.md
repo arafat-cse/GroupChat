@@ -29,7 +29,7 @@ To get a local copy of this project up and running, follow these simple steps.
 ### Prerequisites
 
 - Node.js installed on your machine.
-  ![App Screenshot](image/)
+  ![App Screenshot]([image/](https://github.com/arafat-cse/LiveChatHaven/blob/37b6fae700c3ee771dbf266548c3468ec40fe8b8/public/image/GroupChat.png))
 
 3.  ### Run
    - Folder Open cmd
