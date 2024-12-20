@@ -17,10 +17,10 @@ A simple, scalable group chat application built using Node.js.
 - **HTML/CSS/JavaScript**: Frontend to interact with users.
 -
 ## Usage
-**Once you open the app, you can:
--Create or join a group chat.
--Send and receive messages in real time.
--Enjoy smooth communication using WebSockets!
+** Once you open the app, you can:
+- Create or join a group chat.
+- Send and receive messages in real time.
+- Enjoy smooth communication using WebSockets!
 
 ## Getting Started
 
