@@ -15,7 +15,7 @@ A simple, scalable group chat application built using Node.js.
 - **Express**: Web framework for Node.js.
 - **Socket.io**: Real-time communication between clients and server.
 - **HTML/CSS/JavaScript**: Frontend to interact with users.
--
+  
 ## Usage
 ** Once you open the app, you can:
 - Create or join a group chat.
@@ -29,14 +29,14 @@ To get a local copy of this project up and running, follow these simple steps.
 ### Prerequisites
 
 - Node.js installed on your machine.
-  ![App Screenshot](D:\arafat-dev\Github Project\Chat)
+  ![App Screenshot](image/)
 
-
-### Installation
-
-1. Clone the repository:
-2.   ```bash
-   git clone https://github.com/arafat-cse/LiveChatHaven.git
 3.  ### Run
    - Folder Open cmd
    - Node Index
+     
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/arafat-cse/LiveChatHaven.git
