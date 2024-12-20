@@ -1,4 +1,4 @@
-# LiveGroupHaven
+# LiveChatHaven
 
 A simple, scalable group chat application built using Node.js.
 
